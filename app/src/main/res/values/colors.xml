@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#414141</color>
+    <color name="colorPrimaryDark">#2B2B2B</color>
+    <color name="colorAccent">#00C6DB</color>
+
+    <color name="selectedItemColor">#00C6DB</color>
+    <color name="ItemColor">#E0E0E0</color>
+    <color name="bottomBarColor">#5E5E5E</color>
+    <color name="textColorWhite">#FFFFFF</color>
+    <color name="recyclerViewBgColor">#7C7C7C</color>
+    <color name="cardViewBgColor">#525151</color>
+</resources>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/recyclerViewBgColor"
+    android:scrollbars="none"
+    tools:context=".ShowMoreDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="320dp"
+            android:layout_gravity="center"
+            android:id="@+id/show_more_detail_activity_imageViewBackDrop"
+            android:layout_height="400dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Filmin Adı: "
+                android:textSize="17sp"
+                android:textColor="@color/textColorWhite"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Deadpool"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:id="@+id/show_more_detail_activity_textViewMovieName"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/textColorWhite"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Çıkış Tarihi: "
+                android:textSize="17sp"
+                android:textColor="@color/textColorWhite"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="1994-09-10"
+                android:textSize="15sp"
+                android:id="@+id/show_more_detail_activity_textViewMovieReleaseDate"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/textColorWhite"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Imdb: "
+                android:textSize="17sp"
+                android:textColor="@color/textColorWhite"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="7.3"
+                android:textSize="15sp"
+                android:id="@+id/show_more_detail_activity_textViewMovieImdb"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/textColorWhite"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="@color/textColorWhite"
+                android:textSize="17sp"
+                android:text="Konusu"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/textColorWhite"
+                android:textSize="15sp"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:textAlignment="center"
+                android:id="@+id/show_more_detail_activity_textViewMovieSummary"
+                android:text="Konusu"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
